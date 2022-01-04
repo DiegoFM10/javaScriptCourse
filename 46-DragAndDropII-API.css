@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    background-color: darkcyan;
+    font-family: sans-serif;
+    color: azure;
+    user-select: none;
+}
+
+.container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title {
+    margin: 0 0 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid palegreen;
+    background-color: darkslategrey;
+}
+
+.tasks {
+    width: 30%;
+    text-align: center;
+    background: cadetblue;
+    border: 1px solid palegreen;
+    min-height: 250px;
+}
+
+.tasks:first-child {
+    margin-right: 1rem;
+}
+
+.task {
+    background-color: darkcyan;
+    padding: 1rem;
+    border-bottom: 1px solid darkslategrey;
+    cursor: move;
+}
+
+.task:first-child {
+    border-top: 1px solid darkslategrey;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.active {
+    background-color: darkslategrey;
+}
+

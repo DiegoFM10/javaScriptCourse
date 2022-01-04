@@ -1,0 +1,21 @@
+.form {
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+.form__field {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 1rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.info p {
+    margin: 0 1rem;
+}
