@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="41-FORMS-simple-validation.css">
+    <title>Forms</title>
+</head>
+<body>
+    <h1 id="title">FORMS I - Simple Validation</h1>
+    <form action="#" method="post" class="form" id="form">
+        <div class="form__field">
+            <label for="name" class="form__label">Name:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="form__field">
+            <label for="email" class="form__label">Email:</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <div id="gender" class="form__field">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female">
+        </div>
+        <div class="form__field">
+            <label for="terms">I accept terms and conditions</label>
+            <input type="checkbox" name="terms" id="terms">
+        </div>
+        <button type="submit" id="submitButton" disabled>Send</button>
+    </form>
+
+    <script src="41-FORMS-simple-validation.js"></script>
+</body>
+</html>
