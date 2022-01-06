@@ -23,7 +23,6 @@ const text = document.getElementById('text')
 //     })
 // })
 
-
 //Carga simple de imagen
 // fileInput.addEventListener('change', (e) => {
 //     const file = e.target.files[0]
